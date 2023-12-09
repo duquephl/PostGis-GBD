@@ -10,8 +10,7 @@ ENV POSTGRES_DB=postgres
 
 # Baixar o cliente do redis
 RUN apt update -y \
-    && apt install -y redis\
-    && apt install -y redis-tools
+    && apt install postgis -y
 
 # Exponha a porta padrão do PostgreSQL 5432 e a porta do Redis 6379
 EXPOSE 5432 6379
