@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ruas internas.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Ruas internas</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-41.53709790021736,-20.76023106168236,0 -41.53650226819695,-20.76065595591657,0 -41.53614788391992,-20.76097103090564,0 -41.5360283227775,-20.76121472936708,0 -41.53562634016665,-20.76134267984894,0 -41.53519352242852,-20.76151765093244,0 -41.53512950668056,-20.76163980133011,0 -41.53528170601159,-20.7618730866215,0 -41.53538735930924,-20.76205045773203,0 -41.53550715734281,-20.76221062967921,0 -41.53570167302814,-20.76246528127593,0 -41.53594770765736,-20.76256595674482,0 -41.53616009868712,-20.76254267005826,0 -41.53629142006174,-20.7624215453728,0 -41.53637750967773,-20.76216318797487,0 -41.53626661202943,-20.76183972500046,0 -41.53610215074433,-20.76171129136599,0 -41.53597494962418,-20.76184674365971,0 -41.53582635316886,-20.76201109398144,0 -41.53570452729109,-20.76215002787488,0 -41.53557347952778,-20.76229753476465,0 -41.53550632814922,-20.76220945312689,0 -41.53603117202705,-20.76157902718456,0 -41.53610227765368,-20.76171178636768,0 -41.53598032760627,-20.76148561232675,0 -41.53602884168697,-20.76121402062531,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
